@@ -1,0 +1,27 @@
+<html>
+<head>
+<title> Sign Up/Sign In</title>
+</head>
+<body>
+  <h1 class="SignUp">Sign Up</h1>
+  <hr size="2" color="black">
+
+  <div id="login-box">
+    <div class="left-box">
+      <h1>Sign Up</h1>
+      <form method="post" action="#SignUp.php">
+        <input type="text" name="username" placeholder="Username" required="" /><br><br>
+        <input type="text" name="email" placeholder="Email" required="" /><br><br>
+        <input type="password" name="Password" placeholder="Password" id="Password" required="" /><br><br>
+        <input type="password" name="ConfirmPassword" placeholder="Confirm Password" id="ConfirmPassword" required="" /><br><br>
+        <input type="submit" name="signup-button" value="Sign Up" id="btnSubmit" onclick="Validate(this.form)" /><br><br>
+      </form>
+
+    </div>
+    <div class="right-box">
+      <span class="signinwith">Sign in with Social Network</span><br><br>
+      <a href="https://www.facebook.com"><button class="social facebook">Log in with Facebook</button></a><br><br>   
+      <a href="https://twitter.com"><button class="social twitter">Log in with Twitter</button></a><br><br>
+      <a href="https://plus.google.com"><button class="social google">Log in with Google+</button></a><br><br>
+    </body>    
+  </html>
